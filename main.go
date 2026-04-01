@@ -8,8 +8,8 @@ import (
 
 func main() {
 	// Create a new game instance with default settings
-	game := game.NewGame(os.Stdin, os.Stdout)
+	g := game.NewGame(os.Stdin, os.Stdout)
 
 	// Run the game
-	game.Run()
+	g.Run()
 }
